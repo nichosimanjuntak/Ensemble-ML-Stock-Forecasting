@@ -21,7 +21,7 @@ The goal is to compare model performance, evaluate predictive accuracy, and expl
    - Weaknesses: Computationally intensive, requires tuning
 
 ## Data and Features
-1. Data Sources: Yahoo Finance via yfinance library
+1. Data Sources: Yahoo Finance via yfinance library or from [Data Retrieval Program](https://github.com/nichosimanjuntak/Ensemble-ML-Stock-Forecasting/blob/main/Data%20Retrieval%20Program.ipynb)
 2. Features Created:
    - 'Close_Yesterday': Close price yesterday
    - 'High_Yesterday': Highest price yesterday
@@ -59,8 +59,8 @@ A weighted ensemble of the three models was built, with weights based on validat
 The ensemble smooths individual model weaknesses and provides balanced predictions for both stable and volatile stocks. <br>
 
 Error Calculation using MAPE:
-- JNJ: 0.7%
-- MFST: 1.7%
+- [JNJ](https://github.com/nichosimanjuntak/Ensemble-ML-Stock-Forecasting/blob/main/JNJ.ipynb) : 0.7% 
+- [MFST](https://github.com/nichosimanjuntak/Ensemble-ML-Stock-Forecasting/blob/main/MSFT.ipynb) : 1.7%
 
 ## Key Findings
 1. All models perform well on JNJ (stable stock) with MAPE < 1%.
